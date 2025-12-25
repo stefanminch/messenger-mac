@@ -2,6 +2,8 @@
 
 A standalone desktop app for Facebook Messenger on macOS. Chat with friends without opening a browser.
 
+**Why this exists:** Meta discontinued the official Messenger desktop app. This is a lightweight replacement that lets you use Messenger without keeping a browser tab open.
+
 <img src="icon.png" width="128" alt="Messenger for Mac">
 
 ## Download
