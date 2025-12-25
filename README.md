@@ -2,7 +2,7 @@
 
 A standalone desktop app for Facebook Messenger on macOS. Chat with friends without opening a browser.
 
-![Messenger App Icon](icon.icns)
+<img src="icon.png" width="128" alt="Messenger for Mac">
 
 ## Download
 
