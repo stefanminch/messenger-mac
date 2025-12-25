@@ -1,0 +1,30 @@
+{
+  "name": "messenger-app",
+  "version": "1.0.0",
+  "description": "Standalone Facebook Messenger app for macOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac"
+  },
+  "author": "Stefan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.stefan.messenger",
+    "productName": "MessengerApp",
+    "mac": {
+      "category": "public.app-category.social-networking",
+      "icon": "icon.icns",
+      "target": ["dmg", "zip"],
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "notarize": {
+        "teamId": "X5F8PB64J5"
+      }
+    }
+  }
+}
