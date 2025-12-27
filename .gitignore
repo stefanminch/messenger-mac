@@ -6,3 +6,4 @@ dist/
 *.zip
 .env
 package-lock.json
+RELEASE_INSTRUCTIONS.md
